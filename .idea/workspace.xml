@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fa5ecd38-591e-4667-9140-72a92a908e18" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Ut8m6q6f4UZrByCBamIzNzo3zd" />
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Work\Idea\selenium-automation\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.OwnerTest.addOwner">
+    <configuration name="OwnerTest.addOwner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.petclinic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.automation.petclinic" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.petclinic.OwnerTest" />
+      <option name="METHOD_NAME" value="addOwner" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleUiTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.petclinic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.automation.ui" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.ui.SimpleUiTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleUiTest.firstUiTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.petclinic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.automation.ui" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.ui.SimpleUiTest" />
+      <option name="METHOD_NAME" value="firstUiTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleUiTest.openSeleniumUrl" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.petclinic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.automation.ui" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.ui.SimpleUiTest" />
+      <option name="METHOD_NAME" value="openSeleniumUrl" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.automation.exemple.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.automation" />
+      <option name="MAIN_CLASS_NAME" value="com.automation.exemple.UserTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testng.xml" type="TestNG">
+      <module name="selenium-automation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.OwnerTest.addOwner" />
+        <item itemvalue="TestNG.SimpleUiTest.openSeleniumUrl" />
+        <item itemvalue="TestNG.SimpleUiTest" />
+        <item itemvalue="TestNG.SimpleUiTest.firstUiTest" />
+        <item itemvalue="TestNG.UserTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa5ecd38-591e-4667-9140-72a92a908e18" name="Default Changelist" comment="" />
+      <created>1576164686707</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576164686707</updated>
+    </task>
+    <servers />
+  </component>
+</project>
