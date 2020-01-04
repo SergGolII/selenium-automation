@@ -19,6 +19,7 @@ public class ProjectsUiTest {
     String pageTitle = "SeleniumHQ Browser Automation";
     String projectsUrl = "https://selenium.dev/projects/";
     String projectsPageTitle = "Selenium Projects";
+    String baseUrl = "https://selenium.dev/";
 
     @BeforeClass
     public void setUpDriver() {
@@ -35,15 +36,43 @@ public class ProjectsUiTest {
         driver.quit();
     }
 
-    @Test
-    public void projectTest(){
-        String baseUrl = "https://selenium.dev/";
+    public void transferTo(String ident, String title){
         driver.get(baseUrl);
-        WebElement projectLink = driver.findElement(By.cssSelector("#navbar a[href='/projects']"));
+        WebElement projectLink = driver.findElement(By.cssSelector("#navbar a[href='/"+ident+"']"));
         projectLink.click();
 
         String projectTitle = driver.getTitle();
-        assertEquals(projectTitle, "Selenium project");
+        assertEquals(projectTitle, title);
     }
+
+    @Test
+    public void projectTest(){
+        transferTo("projects", "Selenium Projects");
+    }
+
+    @Test
+    public void downloadsTest() {
+        transferTo("downloads", "Downloads");
+
+    }
+
+    @Test
+    public void documentationTest() {
+        transferTo("documentation", "The Selenium Browser Automation Project :: Documentation for Selenium");
+
+    }
+
+    @Test
+    public void supportTest() {
+        transferTo("support", "Selenium Support");
+
+    }
+
+    @Test
+    public void blogTest() {
+        transferTo("blog", "Selenium Blog");
+
+    }
+
 
 }
